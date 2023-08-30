@@ -1,41 +1,24 @@
-long time = 0;
-const int trig = 12, echo = 13;
+// Import the ultrasonic sensor library
+#include <Ultrasonic.h>
 
-const int led1 = 2;
+// Define the trigger and echo pins of the sensor
+const int trigPin = 13;
+const int echoPin = 12;
 
+// Create an ultrasonic sensor object
+Ultrasonic ultrasonic(trigPin, echoPin);
 
-void setup()
-{
-  pinMode(trig, OUTPUT);
-  pinMode(echo, INPUT);
+// Set the baud rate of the serial monitor
+Serial.begin(9600);
 
-  pinMode(led1, OUTPUT);
-  
-  Serial.begin(9600);
-}
+// Start the scanning loop
+while (true) {
+  // Get the distance measurement from the sensor
+  int distance = ultrasonic.read();
 
-void loop()
-{
-  digitalWrite(trig, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trig, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trig, LOW);
-  
-  time = pulseIn(echo, HIGH)/2;
-  float distance = time*0.0343;
-  
+  // Print the distance measurement to the serial monitor
   Serial.println(distance);
-  delay(100);
 
-
-  if(distance > 40){
-
-    digitalWrite(led1, HIGH);
-    
-  }
-  else{
-    digitalWrite(led1, LOW);
-  }
-  
+  // Wait for 1 second before the next measurement
+  delay(1000);
 }
