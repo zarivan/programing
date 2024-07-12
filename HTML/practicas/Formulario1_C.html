@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 300px;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid #000;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .gender-options {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    <body bgcolor="#FFFFFF">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registro de usuario</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Apellido</td>
+                    <td><input type="text" name="apellido"></td>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td>Género</td>
+                    <td>
+                        <div class="gender-options">
+                            <span>Hombre: <input type="radio" name="genero" value="hombre"></span>
+                            <span>Mujer: <input type="radio" name="genero" value="mujer"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ocupación</td>
+                    <td>
+                        <select name="ocupacion">
+                            <option value="profesor">Profesor</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comentarios</td>
+                    <td><textarea name="comentarios" rows="3" placeholder="Escriba aquí sus comentarios"></textarea></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

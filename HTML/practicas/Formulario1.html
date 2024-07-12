@@ -1,0 +1,54 @@
+<FORM method=post action="cgi-bin/script.pl">
+<body bgcolor="#FFFFFF", link="#FF0000", alink="#00FF00", vlink="#0000FF">
+
+
+<h2>Registro de un usuario</h2>
+	<TABLE BORDER=0>
+		<TR>
+			<TD>Apellido</TD>
+			<TD> <INPUT type=text name="apellido"> </TD>
+		</TR>
+		<TR>
+			<td> 
+				Nombre
+			</td>		
+			<td>
+				<INPUT type=text name="nombre">
+			</TD>
+		</TR>
+		<TR>
+			<TD>Género </TD>
+			<TD><b><br>Hombre:<INPUT type=radio name="género" value="M">
+				Mujer: <INPUT type=radio name="género" value="F">
+			</b>
+			</TD>
+		</TR>
+		<TR>
+			<TD>Ocupación</TD>
+			<TD>
+			<SELECT name="ocupación">
+				<OPTION VALUE="profesor1">Profesor</OPTION>
+				<OPTION VALUE="estudiante">Estudiante</OPTION>
+				<OPTION VALUE="ingeniero">Ingeniero</OPTION>
+				<OPTION VALUE="jubilado">Jubilado</OPTION>
+				<OPTION VALUE="otro">Otro</OPTION>
+				</SELECT>
+			</TD>
+		</TR>
+		<TR>
+			<TD>Comentarios</TD>
+			<TD>
+				<TEXTAREA rows="3" name="comentarios">
+				Escriba aquí sus comentarios</TEXTAREA>
+			Enviar
+			</TD>
+		</TR>
+		<TR>
+			<TD COLSPAN=2>
+				<INPUT type="submit" value="Enviar">
+			</TD>
+		</TR>
+		
+	</TABLE>
+	<a href=”http://www.wikipedia.org”>http://www.wikipedia.org</a>
+</FORM>

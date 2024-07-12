@@ -1,0 +1,9 @@
+<FORM method=post action="cgi-bin/script.pl">
+Registro de un usuario
+<TABLE BORDER=0>
+<TR>
+	<TD>Apellido</TD>
+	<TD>
+	<INPUT type=text name="apellido">
+	</TD>
+</TR>

@@ -1,0 +1,50 @@
+Date: 17/5/2024
+Time: 14:21
+Phone Number: +527717005157
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:25
+Phone Number: +527717005157
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:26
+Phone Number: +527717005157
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:29
+Phone Number: +527717005157
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:31
+Phone Number: +527711247516
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:38
+Phone Number: +527717005157
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:39
+Phone Number: +527711247516
+Message: Hola, este es un mensaje automático desde Python. Aquí tienes un enlace: https://example.com
+--------------------
+Date: 17/5/2024
+Time: 14:45
+Phone Number: +527717005157
+Message: Hola. Este fue un mensaje de prueba gracias
+--------------------
+Date: 17/5/2024
+Time: 14:46
+Phone Number: +527711247516
+Message: Hola. Este fue un mensaje de prueba gracias
+--------------------
+Date: 30/5/2024
+Time: 21:26
+Phone Number: +527711247516
+Message: Hola Alma buenas noches.
+--------------------

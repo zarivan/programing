@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- La etiqueta meta charset especifica la codificación de caracteres para el documento HTML -->
+    <meta charset="UTF-8">
+    
+    <!-- La etiqueta meta viewport ayuda con la responsividad en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- El título de la página que aparece en la pestaña del navegador -->
+    <title>Página de Ejemplo HTML</title>
+    
+    <!-- Estilos CSS internos -->
+    <style>
+        /* Los comentarios en CSS usan esta sintaxis */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
+        header {
+            background-color: #FF6720;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #212322;
+            text-align: right;
+            color: white;
+            padding: 0.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body bgcolor="#333F48" style="color = #FFFFFF;" >
+    <!-- El header generalmente contiene el título principal y/o logo -->
+    <header>
+        <h1>Bienvenido a Mi Página de Ejemplo</h1>
+    </header>
+
+    <!-- La navegación contiene enlaces a las diferentes secciones del sitio -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- El contenido principal de la página -->
+    <div class="container">
+        <!-- Las etiquetas de encabezado van desde h1 (más importante) hasta h6 -->
+        <h2>Contenido Principal</h2>
+        
+        <!-- Párrafo de texto -->
+        <p>Este es un párrafo de ejemplo. Los párrafos son útiles para contenido de texto largo.</p>
+        
+        <!-- Lista no ordenada -->
+        <h3>Lista no ordenada:</h3>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+        
+        <!-- Lista ordenada -->
+        <h3>Lista ordenada:</h3>
+        <ol>
+            <li>Primer paso</li>
+            <li>Segundo paso</li>
+            <li>Tercer paso</li>
+        </ol>
+        
+        <!-- Tabla -->
+        <h3>Tabla de ejemplo:</h3>
+        <table>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+            </tr>
+            <tr>
+                <td>Fila 1, Celda 1</td>
+                <td>Fila 1, Celda 2</td>
+            </tr>
+            <tr>
+                <td>Fila 2, Celda 1</td>
+                <td>Fila 2, Celda 2</td>
+            </tr>
+        </table>
+        
+        <!-- Imagen -->
+        <h3>Imagen de ejemplo:</h3>
+        <img src="/api/placeholder/300/200" alt="Imagen de ejemplo" width="300" height="200">
+        
+        <!-- Enlace -->
+        <h3>Enlace de ejemplo:</h3>
+        <a href="https://www.ejemplo.com">Visita Ejemplo.com</a>
+        
+        <!-- Formulario -->
+        <h3>Formulario de ejemplo:</h3>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <!-- El pie de página generalmente contiene información de copyright, enlaces adicionales, etc. -->
+    <footer>
+        <p>&copy; 2024 Mi Página de Ejemplo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
